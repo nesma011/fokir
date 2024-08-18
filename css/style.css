@@ -1,0 +1,784 @@
+  /* classes section home*/
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+div.home
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/hero\ img.jpg);
+    background-size: cover;
+    background-position: center ,center;
+}
+
+
+div.layer
+{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.822);
+    overflow: auto;
+}
+
+
+div.text1
+{
+    position: relative;
+    top: 20px;
+
+}
+
+
+span.red
+{
+    color: rgb(235, 33, 66);
+    font-size: x-large;
+    font-weight: 900;
+    
+}
+a.text2
+{
+    color: rgb(230, 11, 48);
+    font-size: larger;
+    font-weight: 300;
+    float: right;
+    padding: 10px;
+    list-style: none;
+
+}
+li.items
+{
+  
+    float: right;
+    padding: 10px;
+    list-style: none;  
+    
+}
+ 
+
+
+div.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+    transition:all 1s;
+}
+
+div.navbar a:hover
+ {
+    
+    color: rgb(218, 5, 76);
+ }
+
+div.navbar
+{
+    overflow: hidden;
+    background-color: #131212;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 9999;
+}
+h2.style1
+{
+    color: white;
+   
+}
+h3.style2
+{
+    color: rgb(238, 15, 52);
+    font-size: 70px;
+    font-weight: bold;
+}
+h1.style3
+{
+    color: white;
+   
+    font-size: 26px;
+}
+
+div.center
+{
+    width: 50%;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    margin: auto;
+    
+}
+.clr
+{
+    clear: both;
+}
+
+
+
+/* classes section about*/
+
+div.about
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+
+}
+div.left
+{
+    width: 50%;
+    height: 100vh;
+    float: left; 
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+div.border
+{
+    border: 7px rgb(77, 76, 76) solid;
+    border-radius: 8px;
+    width: 360px;
+    height: 440px;
+    position: relative;
+
+}
+div.img1
+{
+    position: relative;
+    width: 100%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+}
+
+
+div.lay
+{
+    background-color: #08080880;
+   transition: all 1s ;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    opacity: 0; 
+
+}
+
+.img1:hover .lay
+{  
+    
+top: 0;
+opacity: 1;
+  
+    
+}
+
+i.icolor
+{
+   
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 25%;
+
+}
+i.icolor:hover
+{
+    color: #c41d6b;
+}
+
+
+
+div.right
+{
+    float: right;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    top: 100px;
+    right: 50px;
+   
+
+}
+h2.set{
+    border-left: 6px rgb(223, 12, 47) solid;
+    line-height: 25px;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 10px;
+}
+p.p1
+{
+    color: rgb(99, 98, 98);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+hr.dash
+{
+    border-top: 1px rgb(187, 184, 184) dashed;
+   
+}
+
+span.bold
+{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+table
+{
+    border-spacing: 10px;
+    
+}
+td{
+    padding: 10px;
+}
+
+a.click{
+    padding: 10px 20px;
+    margin :20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: rgb(238, 54, 109);
+    border: none;
+    border-radius: 10px;
+}
+a.click:hover
+{
+    background-color: orangered;
+}
+
+
+
+/* classes section services*/
+div.services
+{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(240, 240, 240);
+}
+
+h1.service
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    padding-top: 60px;
+
+   
+}
+div.title
+{
+    width: 30%;
+    height: 10%;
+    margin: auto;
+    padding-bottom: 3px;
+  
+}
+hr.hr1
+{
+    width: 20%;
+    margin:3px auto;
+    border: 1px solid rgb(243, 69, 121)
+
+}
+hr.hr2
+{
+    width: 50%;
+    margin: 3px auto;
+    border: 1px solid rgb(243, 69, 121)
+}
+div.sections
+{
+   
+    width: auto;
+    margin: 20px;
+}
+
+h1.s
+{
+    font-size: 24px;
+  font-weight: 600;
+}
+i.istyle
+{
+    color:rgb(243, 69, 121) ;
+   padding: 30px;
+    font-size: xx-large;
+    transition: all 1s;
+}
+
+div.section
+{
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    top: 150px;
+    transition: all 1s;
+    overflow: hidden;;
+}
+
+div.section:hover
+{
+    background-color: white;
+}
+
+div.section:hover i
+{
+    transform: scale(1.5);
+ 
+}
+
+
+/* classes section portfolio*/
+
+
+div.graphic
+{
+    width: 100%;
+    height: auto;
+
+}
+
+div.container
+{
+    width: 80%;
+    margin: auto;
+}
+div.cen
+{
+    text-align: center;
+    margin: 10px auto;
+}
+
+li.li
+{
+    list-style: none;
+    font-size: medium;
+    font-weight: 100;
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+a.visible
+{
+   
+
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    
+
+}
+a.texta
+{
+    
+    color: rgb(226, 21, 55);
+    text-decoration: none;
+
+
+}
+div.images
+{
+    width:100%;
+  
+   
+}
+div.img
+{
+    width: 33.333%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+img.size
+{
+    width: 100%;
+}
+i.place
+{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+}
+
+
+div.layers 
+{
+   background-color: #08080880;
+   transition: all 0.4s ;
+   width: 100%;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    top: 5px;
+    left: 5px;
+    color: #c41d6b;
+    opacity: 0; 
+   
+}
+div.inner1
+{
+    position: relative;
+    width:100% ;
+    transition: all 1s ;
+}
+div.inner1:hover div.layers
+{
+    opacity: 1;
+}
+
+
+/* classes section icons*/
+
+
+ div.icons
+ {
+    background-color: rgb(238, 235, 235);
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    top: 80px;
+    margin: auto;
+ }
+ div.icon
+ {
+    width: 25%;
+    padding: 60px; 
+   float: left;
+    text-align: center;
+
+ }
+ i.color
+ {
+    color: rgb(221, 14, 48);
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+   
+ }
+ h6 
+ {
+   text-align: center;
+   font-size: 26px;
+    font-weight: 800;
+    padding: 10px;
+ }
+ p.styling
+ {
+    text-align: center;
+    color: #555555;
+    font-size: 20px;
+    padding: 10px;
+
+ }
+
+
+ /* classes section feedback*/
+ div.feedback
+ {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 120px; 
+ }
+
+div.full
+{
+    width: 50%;
+    height: 40%;
+    background-image:linear-gradient(135deg, rgb(236, 45, 77)0% 15% ,#eeecec 15% 100%) ;
+    position: absolute;
+    top: 200px;
+    left:350px;
+   
+   
+   
+}
+ div.photo
+ {
+  
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+    text-align: center;
+    
+ }
+ .photo img
+ {
+    border-radius: 50%;
+    width: 100%;
+    padding: 25px;
+    
+ }
+ div.alex
+ {
+    float: left;
+  width: 70%;
+  padding: 30px;
+
+ }
+
+
+
+ i.yellow
+ {
+    color: rgb(238, 204, 13);
+ }
+.alex h5{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+.alex h3{
+    font-weight: 600;
+    margin:10px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6b6b6b;
+    display:inline-block ;
+}
+i.inline
+{
+    display:inline-block ;
+    color: #6b6b6b;
+}
+
+
+
+  
+
+ /* classes section blog*/
+ div.blog
+ {
+    width: 100%;
+    height: 140vh;
+    background-color: rgb(238, 235, 235);
+    padding: 20px;
+    
+
+ }
+ div.first
+ {
+    
+    width: 100%;
+   
+   
+ }
+ div.m
+{
+    width: 33.3333%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    float: left;
+    
+}
+div.inner
+{
+    background-color: white;
+}
+
+ .m img
+ {
+    width: 100%;
+   
+   
+ }
+ .m iframe
+ {
+    width:100%;
+    aspect-ratio: 16 / 9;
+ }
+ .m a
+ {
+    color: black;
+    font-size: 10px;
+    font-weight: 300;
+
+ }
+ .m p
+ {
+    color: #555555;
+    font-family: "Roboto", sans-serif; 
+    padding:10px;
+ }
+ .m a :hover
+ {
+    color: rgb(228, 18, 53);
+ }
+ 
+
+ 
+ .large a :hover
+ {
+    color: rgb(228, 18, 53);
+    
+ }
+ p.large
+ {
+    font-size: large;
+ }
+
+/* classes section contact*/
+
+  div.contact
+  {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  div.formm
+  {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+
+  }
+  input[name=name] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: #cfcdcd 1px solid;
+    border-radius: 5px;
+    
+  }
+
+  input[name=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    float: left;
+    border: #d1d0d0 1px solid;
+    border-radius: 5px;
+  }
+  input[name=subject] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: #d8d7d7 1px solid;
+    border-radius: 5px;
+  }
+
+  textarea[name=text]
+{
+    width: 100%;
+    padding: 30px 40px;
+    margin: 8px 0;
+    border: #d6d3d3 1px solid;
+    border-radius: 5px;
+}
+button
+{
+    background-color: rgb(235, 9, 47);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+
+    
+}
+
+div.name
+{
+    float:left;
+    margin-inline: -10px;
+    width: 50%;
+    
+}
+div.email
+{
+    float: right;
+    width: 50%;
+}
+button:hover
+{
+    background-color: orangered;
+}
+input[name=name]:focus {
+
+    border: 1px solid #d41515;
+  }
+  input[name=email]:focus {
+
+    border: 1px solid #df1515;
+  }
+  input[name=subject]:focus {
+
+    border: 1px solid #e21111;
+  }
+  input[name=text]:focus {
+
+    border: 1px solid #e61313;
+  }
+
+
+  /* classes section footer*/
+  div.footer
+  {
+    background-color: rgb(59, 58, 58);
+    width: 100%;
+    
+
+  }
+  div.cent
+  {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-block: 40px;
+  }
+  .cent p{
+    color: white;
+    font-size: larger;
+  }
+  span{
+    color: rgb(245, 89, 115);
+  }
+  i.fo
+  {
+    color: white;
+    padding: 10px;
+  }
+  .cent a :hover
+  {
+    color: rgb(180, 12, 40);
+  }
+
+
+ 
+
+
+
+
+
